@@ -1,8 +1,9 @@
 import { RepositoryList } from './components/RepositoryList'
-import { Counter } from './components/Counter'
+import Counter from './components/Counter' 
 import './styles/global.scss'
 
-export function App () {
+// Usando export default
+export default function App() {
   return (
     // Fragment = Fragmento ( <></> )
     <>
