@@ -1,4 +1,6 @@
-const repositoryName = 'unform2';
+import '../styles/repositories.scss'
+
+const repositoryName = 'unform2'
 
 export function RepositoryList () {
   return (
